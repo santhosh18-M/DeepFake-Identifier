@@ -1,3 +1,10 @@
+## 🚀 Live Demo
+
+Click here to try the app:
+https://roydr9ojczngovbhpess9k.streamlit.app/
+
+
+
 # DeepFake Identifier (AI vs Real Image Classifier)
 
 This project is a **Deep Learning-based Image Classifier** that detects whether an image is:
@@ -42,3 +49,4 @@ pip install -r requirements.txt
 Run the app:
 
 streamlit run app.py
+
