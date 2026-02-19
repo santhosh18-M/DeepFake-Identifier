@@ -1,24 +1,24 @@
-# 🧠 DeepFake Identifier (AI vs Real Image Classifier)
+# DeepFake Identifier (AI vs Real Image Classifier)
 
 This project is a **Deep Learning-based Image Classifier** that detects whether an image is:
 
-- 🖼️ Real Image  
-- 🤖 AI Generated Image  
+- Real Image  
+- AI Generated Image  
 
 The model is built using **PyTorch** and deployed using **Streamlit**.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Upload JPG, JPEG, PNG, JFIF images
 - Predict whether image is AI-generated or real
-- Displays prediction with confidence score
+- Displays prediction
 - Simple and clean Streamlit UI
 
 ---
 
-## 🏗️ Model Details
+## Model Details
 
 - Custom CNN Architecture
 - 3 Convolutional Layers
@@ -28,7 +28,7 @@ The model is built using **PyTorch** and deployed using **Streamlit**.
 - Framework: PyTorch
 ---
 
-## ⚙️ Installation
+## Installation
 
 Clone the repository:
 
@@ -40,4 +40,5 @@ Install dependencies:
 pip install -r requirements.txt
 
 Run the app:
+
 streamlit run app.py
